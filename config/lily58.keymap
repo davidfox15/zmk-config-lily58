@@ -25,6 +25,8 @@
         combo_esc {
             bindings = <&kp ESC>;
             key-positions = <24 23>;
+            require-prior-idle-ms = <0>;
+            timeout-ms = <100>;
         };
     };
 
