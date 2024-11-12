@@ -20,18 +20,7 @@
     //     compatible = "zmk,kscan-gpio-matrix";
     //     diode-direction = "col2row";
     //     wakeup-source;
-    // };
-
-    combos {
-        compatible = "zmk,combos";
-
-        esc {
-            bindings = <&kp ESC>;
-						// CTRL + \
-            key-positions = <24 23>;
-        };
-    };
-		
+    // };	
 
     keymap {
         compatible = "zmk,keymap";
